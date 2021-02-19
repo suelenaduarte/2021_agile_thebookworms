@@ -10,31 +10,29 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>Best C# Programming Books</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
+                Our picks for the Best Books to Learn C#.
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://www.youtube.com/watch?v=b6RhpiueKKg">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
+            <h2>Best Books to Learn ASP .NET</h2>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                Our picks for the Best Books to Learn ASP.NET.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://www.youtube.com/watch?v=MojVMiPTG5o">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>Algorithms and Data Structures</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                Our picks for the best books to learn about Algorithms and Data Structures.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://www.youtube.com/watch?v=PBWFNGYjUBY">Learn more &raquo;</a>
             </p>
         </div>
     </div>
