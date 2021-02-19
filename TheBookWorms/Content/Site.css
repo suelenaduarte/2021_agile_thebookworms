@@ -36,6 +36,10 @@ input[type="select"] {
 }
 
 /* About Page the Founders */
+.aboutDiscription {
+    background-color: #09f4f6;
+}
+
 .founders {
     background-color: #09f4f6;
     margin-bottom: 15em;
