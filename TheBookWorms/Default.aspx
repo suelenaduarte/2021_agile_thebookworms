@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>The Book Worms</h1>
-        <p class="lead">The Book Worms is a free website for learning about books you to study.</p>
+        <p class="lead">The Book Worms is a free website for learning about books.</p>
         <p><a runat="server" href="~/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
