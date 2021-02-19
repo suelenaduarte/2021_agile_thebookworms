@@ -29,11 +29,15 @@ input[type="select"] {
 
 
 
+/*Home Page*/
+
+.jumbotron {
+    background-color: #09f4f6;
+}
 
 /* About Page the Founders */
-
-
 .founders {
+    background-color: #09f4f6;
     margin-bottom: 15em;
     width: 60%;
 }
