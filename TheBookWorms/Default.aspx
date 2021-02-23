@@ -2,12 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>The Book Worms</h1>
-        <p class="lead">The Book Worms is a free website for learning about books.</p>
-        <p><a runat="server" href="~/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
-
       <table border="1" style="width: 50%; height: 288px">
         <caption>Share Your Knowledge Book in a Video</caption>
         <tr>
@@ -51,40 +45,16 @@
                 <asp:Label ID="lblSuccess" runat="server"></asp:Label>
                 <br />
                 <br />
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ViewAllVideos.aspx">View All Uploaded Videos</asp:HyperLink>
             </td>
+            
         </tr>
-
+          
     </table>
-    <br />
-    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ViewAllVideos.aspx">View All Uploaded Videos</asp:HyperLink>
+    
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Best C# Programming Books</h2>
-            <p>
-                Our picks for the Best Books to Learn C#.
-            <p>
-                <a class="btn btn-default" href="https://www.youtube.com/watch?v=b6RhpiueKKg">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Best Books to Learn ASP .NET</h2>
-            <p>
-                Our picks for the Best Books to Learn ASP.NET.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://www.youtube.com/watch?v=MojVMiPTG5o">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Algorithms and Data Structures</h2>
-            <p>
-                Our picks for the best books to learn about Algorithms and Data Structures.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://www.youtube.com/watch?v=PBWFNGYjUBY">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+    <br />
+    
+ 
 
 </asp:Content>

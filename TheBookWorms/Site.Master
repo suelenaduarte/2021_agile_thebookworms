@@ -73,14 +73,22 @@
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <div class="jumbotron header text-center">
+        <h1>The Book Worms</h1>
+            <p class="lead">The Book Worms is a free website for learning about books.</p>
+            <p><a runat="server" href="~/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        </div>
+        <div class="container mainContent body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
+
+        </div>
+        <div class="text-center">
+            <footer class="footer">
                 <p>&copy; <%: DateTime.Now.Year %> - The Book Worms</p>
             </footer>
-        </div>
+       </div>
     </form>
 </body>
 </html>

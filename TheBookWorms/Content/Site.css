@@ -31,8 +31,13 @@ input[type="select"] {
 
 /*Home Page*/
 
+.mainContent {
+    min-height: 50em;
+}
+
 .jumbotron {
     background-color: #09f4f6;
+    text-align: center;
 }
 
 /* About Page the Founders */
@@ -69,6 +74,7 @@ caption {
 
 table {
     margin: auto;
+    
 }
 
 td:nth-of-type(odd) {
@@ -76,9 +82,38 @@ td:nth-of-type(odd) {
 }
 
 td, th {
-    padding: 10px;
+    padding: 10px;  
 }
 
 tr:nth-of-type(odd) {
     background-color: #FFBA00;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #ECECEC;
+    border-bottom: 1px solid #FF3900;
+    border-top: 1px solid #FF3900;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+  
+}
+
+footer a:link {
+    color: #FF3900;
+    padding-left: 0.5em;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #212E35;
+}
+
+footer a:hover, footer a:focus {
+    background-color: #FF8B00;
+    color: #fff;
 }
