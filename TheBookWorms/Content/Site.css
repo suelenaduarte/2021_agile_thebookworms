@@ -57,3 +57,28 @@ input[type="select"] {
     margin-right: 15px;
     border-radius: 50%;
 }
+
+/* TABLE STYLE */
+
+caption {
+    background-color: #212E35;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+table {
+    margin: auto;
+}
+
+td:nth-of-type(odd) {
+    text-align: center;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #FFBA00;
+}
