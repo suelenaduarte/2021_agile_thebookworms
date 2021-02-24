@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'thebookworms-aspnet'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b9444ca3708a4fb090e43b00cc8c8bc9 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_393ccd87bc5a4b74a20eb9b4c26b5269 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
