@@ -28,6 +28,25 @@
 
             </td>
         </tr>
+
+        <tr>
+            <td style="width: 200px">Genre<br /></td>
+            <td style="width: 323px">
+                <asp:TextBox ID="genre" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Genre name field is required" ControlToValidate="genre" ForeColor="Red"></asp:RequiredFieldValidator>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width: 200px">Date Created<br /></td>
+            <td style="width: 323px">
+
+                <asp:TextBox ID="dateCreated" TextMode="DateTimeLocal" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Date Created name field is required" ControlToValidate="genre" ForeColor="Red"></asp:RequiredFieldValidator>
+
+            </td>
+        </tr>
         <tr>
             <td style="width: 177px">Upload Video</td>
             <td style="width: 323px">

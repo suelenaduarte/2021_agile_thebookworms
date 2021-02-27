@@ -19,6 +19,10 @@ namespace TheBookWorms.Models
         
         public string AuthorLastName { get; set; }
 
+        public string Genre { get; set; }
+
+        public string DateTimeBook { get; set; }
+
         public string VideoUrl { get; set; }
     }
 }

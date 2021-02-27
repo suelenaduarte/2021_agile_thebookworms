@@ -6,6 +6,11 @@
         <asp:DataList ID="DataList1" runat="server" DataKeyField="UserId" DataSourceID="SqlDataSource1"  RepeatColumns="3" RepeatDirection="Horizontal" ShowFooter="False" ShowHeader="False" Style="margin-left: 12px; margin-bottom: 0px" Width="621px" BorderStyle="Double">
             <ItemTemplate>
                 <table class="nav-justified videoTable">
+                   <tr>
+                        <td>
+                            <asp:Label ID="Label5" runat="server" Text='<%# Eval("DateTimeBook") %>'></asp:Label>
+                        </td>
+                    </tr>
                     <tr>
                         <td>
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("Title") %>' ForeColor="Black"></asp:Label>
@@ -19,6 +24,11 @@
                     <tr>
                         <td>
                             <asp:Label ID="Label2" runat="server" Text='<%# Eval("AuthorLastName") %>'></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="Label3" runat="server" Text='<%# Eval("Genre") %>'></asp:Label>
                         </td>
                     </tr>
                     <tr>

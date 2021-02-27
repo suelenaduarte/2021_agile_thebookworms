@@ -30,6 +30,8 @@ namespace TheBookWorms
             message.Title = title.Text;
             message.AuthorFirstName = firstName.Text;
             message.AuthorLastName = lastName.Text;
+            message.DateTimeBook = dateCreated.Text;
+            message.Genre = genre.Text;
 
             // Get random and unique video name 
             fileName = Path.GetRandomFileName();
