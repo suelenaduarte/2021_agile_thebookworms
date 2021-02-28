@@ -508,8 +508,8 @@ C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\Microsoft.O
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\obj\Debug\TheBookWorms.csprojAssemblyReference.cache
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\obj\Debug\TheBookWorms.csproj.CoreCompileInputs.cache
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\obj\Debug\TheBookWorms.csproj.CopyComplete
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\obj\Debug\TheBookWorms.dll
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\obj\Debug\TheBookWorms.pdb
+C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\obj\Debug\TheBookWorms.csprojAssemblyReference.cache
