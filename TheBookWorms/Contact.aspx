@@ -34,7 +34,7 @@
         <asp:TextBox ID="txtMessage" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ErrorMessage="Message is Required" ControlToValidate="txtMessage" Display="None"></asp:RequiredFieldValidator>
         <br />
-        <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+        <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
       
     </section>
 </asp:Content>

@@ -13,5 +13,24 @@ namespace TheBookWorms
         {
 
         }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                AddDataToSession();
+                Response.Redirect("Response.aspx");
+
+            }
+
+
+        }
+
+        private void AddDataToSession()
+        {
+            Session.Add("firstName", txtFirstName.Text);
+            Session.Add("lastName", txtLastName.Text);
+            Session.Add("email", txtEmail.Text);
+        }
     }
 }
