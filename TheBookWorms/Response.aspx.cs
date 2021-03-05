@@ -36,7 +36,7 @@ namespace TheBookWorms
             WebMail.SmtpPort = 587;
             WebMail.EnableSsl = true;
             WebMail.UserName = "gbehler@student.cvtc.edu";
-            WebMail.Password = "paTr!ot33";
+            WebMail.Password = "";
             WebMail.From = "gbehler@student.cvtc.edu";
 
             // Send email
