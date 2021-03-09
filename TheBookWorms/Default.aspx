@@ -43,7 +43,7 @@
             <td style="width: 323px">
 
                 <asp:TextBox ID="dateCreated" TextMode="DateTimeLocal" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Date Created name field is required" ControlToValidate="genre" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Date Created name field is required" ControlToValidate="dateCreated" ForeColor="Red"></asp:RequiredFieldValidator>
 
             </td>
         </tr>
@@ -51,7 +51,9 @@
             <td style="width: 177px">Upload Video</td>
             <td style="width: 323px">
                 <asp:FileUpload ID="videoUpload" runat="server" />
-                <asp:RequiredFieldValidator runat="server" Display="Dynamic" ErrorMessage="* Required Field" ControlToValidate="videoUpload" ID="videoError"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator runat="server" Display="Dynamic" ErrorMessage="*Upload video field is required. (mp4 video file)" ControlToValidate="videoUpload" ID="videoError" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator Display="Dynamic" ValidationExpression="([a-zA-Z0-9\s_\\.\'#()-:])+(.mp4|.MP4)$" ControlToValidate="videoUpload" runat="server" ForeColor="Red" ErrorMessage="Please upload
+                    a mp4 Video File" ID="RegularExpressionValidator1" />
             </td>
         </tr>
         <tr>
