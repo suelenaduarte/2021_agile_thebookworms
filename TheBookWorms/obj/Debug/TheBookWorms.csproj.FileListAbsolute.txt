@@ -646,3 +646,13 @@ C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\System.Web.
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\System.Web.WebPages.xml
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\System.Web.WebPages.Deployment.xml
 C:\Users\suele\Desktop\2021_agile_thebookworms-main\TheBookWorms\bin\System.Web.WebPages.Razor.xml
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.Helpers.dll
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.Razor.dll
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.WebPages.dll
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.WebPages.Razor.dll
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.Helpers.xml
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.Razor.xml
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.WebPages.xml
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tyswa\Desktop\2021_agile_thebookworms\TheBookWorms\bin\System.Web.WebPages.Razor.xml
