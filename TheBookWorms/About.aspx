@@ -13,7 +13,7 @@
     <div class="founders">
         <h3>Gideon E Behler</h3>
         <p>
-            <img src= "Content/Pictures/GideonPic.jpg" alt="Gideon photo profile"/> development student, outside of class I enjoy spending time with my wife and 2 children, playing games like D&D or video games, and I enjoy reading. </p>
+            <img src= "Content/Pictures/GideonPic.jpg" alt="Gideon photo profile"/>IT-Software development student, outside of class I enjoy spending time with my wife and 2 children, playing games like D&D or video games, and I enjoy reading. </p>
 
     </div>
 
