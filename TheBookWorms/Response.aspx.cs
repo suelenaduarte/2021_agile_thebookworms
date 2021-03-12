@@ -32,12 +32,12 @@ namespace TheBookWorms
             var email = Session["email"].ToString();
 
             // Initialize WebMail helper
-            WebMail.SmtpServer = "smtp-mail.outlook.com";
+            WebMail.SmtpServer = "smtp.gmail.com";
             WebMail.SmtpPort = 587;
             WebMail.EnableSsl = true;
-            WebMail.UserName = "gbehler@student.cvtc.edu";
-            WebMail.Password = "";
-            WebMail.From = "gbehler@student.cvtc.edu";
+            WebMail.UserName = "thebookworms12345";
+            WebMail.Password = "Testema!l1";
+            WebMail.From = "thebookworms12345@gmail.com";
 
             // Send email
             WebMail.Send(email, "We Got Your Message", "Thank you " + firstName + " " + lastName + " we have recieved your message and will get back to you soon.");
