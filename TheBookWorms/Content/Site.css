@@ -86,13 +86,13 @@ td, th {
 }
 
 tr:nth-of-type(odd) {
-    background-color: #FFBA00;
+    background-color: #09f4f6;
 }
 
-
-
+.nav-justified videoTable {
+    background-color: #09f4f6;
+}
 /* Footer */
-
 footer {
     background-color: #ECECEC;
     border-bottom: 1px solid #FF3900;
@@ -100,7 +100,6 @@ footer {
     font-style: italic;
     padding: 20px;
     text-align: center;
-  
 }
 
 footer a:link {
