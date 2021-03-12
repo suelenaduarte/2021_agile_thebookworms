@@ -40,6 +40,10 @@ input[type="select"] {
     text-align: center;
 }
 
+
+.HyperLink2 {
+    color: black;
+}
 /* About Page the Founders */
 .aboutDiscription {
     background-color: #09f4f6;
