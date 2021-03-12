@@ -66,7 +66,7 @@
                 <asp:Label ID="lblSuccess" runat="server"></asp:Label>
                 <br />
                 <br />
-                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ViewAllVideos.aspx">View All Uploaded Videos</asp:HyperLink>
+                <asp:HyperLink CssClass="HyperLink2" ID="HyperLink2" runat="server" NavigateUrl="~/ViewAllVideos.aspx">View All Uploaded Videos</asp:HyperLink>
             </td>
             
         </tr>
