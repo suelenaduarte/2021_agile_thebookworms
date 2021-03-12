@@ -18,6 +18,7 @@ namespace TheBookWorms
         {
             if (Page.IsValid)
             {
+
                 AddDataToSession();
                 Response.Redirect("Response.aspx");
 

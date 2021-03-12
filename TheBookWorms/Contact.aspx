@@ -23,7 +23,7 @@
         <br />
         <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label>
         <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
-        <asp:RegularExpressionValidator ID="revEmail" runat="server" ErrorMessage="Enter a valid Email Address" ControlToValidate="txtEmail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="None"></asp:RegularExpressionValidator>
+        <asp:RequiredFieldValidator ID="rfEmail" runat="server" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail" ErrorMessage="Email is required" Display="None"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Label ID="lblEmailConfirm" runat="server" Text="Confirm Email: "></asp:Label>

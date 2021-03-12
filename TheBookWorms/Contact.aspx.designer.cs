@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheBookWorms
-{
-
-
-    public partial class Contact
-    {
-
+namespace TheBookWorms {
+    
+    
+    public partial class Contact {
+        
         /// <summary>
         /// ValidationSummary1 control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
-
+        
         /// <summary>
         /// lblFirstName control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblFirstName;
-
+        
         /// <summary>
         /// txtFirstName control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFirstName;
-
+        
         /// <summary>
         /// rfvFirstName control.
         /// </summary>
@@ -49,7 +47,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFirstName;
-
+        
         /// <summary>
         /// lblLastName control.
         /// </summary>
@@ -58,7 +56,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblLastName;
-
+        
         /// <summary>
         /// txtLastName control.
         /// </summary>
@@ -67,7 +65,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLastName;
-
+        
         /// <summary>
         /// rfvLastName control.
         /// </summary>
@@ -76,7 +74,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLastName;
-
+        
         /// <summary>
         /// lblDate control.
         /// </summary>
@@ -85,7 +83,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDate;
-
+        
         /// <summary>
         /// txtDate control.
         /// </summary>
@@ -94,7 +92,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDate;
-
+        
         /// <summary>
         /// revDate control.
         /// </summary>
@@ -103,7 +101,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator revDate;
-
+        
         /// <summary>
         /// lblEmail control.
         /// </summary>
@@ -112,7 +110,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEmail;
-
+        
         /// <summary>
         /// txtEmail control.
         /// </summary>
@@ -121,16 +119,16 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
-
+        
         /// <summary>
-        /// revEmail control.
+        /// rfEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
-
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfEmail;
+        
         /// <summary>
         /// lblEmailConfirm control.
         /// </summary>
@@ -139,7 +137,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEmailConfirm;
-
+        
         /// <summary>
         /// txtEmailConfirm control.
         /// </summary>
@@ -148,7 +146,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEmailConfirm;
-
+        
         /// <summary>
         /// cvEmailConfirm control.
         /// </summary>
@@ -157,7 +155,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator cvEmailConfirm;
-
+        
         /// <summary>
         /// lblSubject control.
         /// </summary>
@@ -166,7 +164,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSubject;
-
+        
         /// <summary>
         /// txtSubject control.
         /// </summary>
@@ -175,7 +173,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtSubject;
-
+        
         /// <summary>
         /// rfvSubject control.
         /// </summary>
@@ -184,7 +182,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSubject;
-
+        
         /// <summary>
         /// lblMessage control.
         /// </summary>
@@ -193,7 +191,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMessage;
-
+        
         /// <summary>
         /// txtMessage control.
         /// </summary>
@@ -202,7 +200,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMessage;
-
+        
         /// <summary>
         /// rfvMessage control.
         /// </summary>
@@ -211,7 +209,7 @@ namespace TheBookWorms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMessage;
-
+        
         /// <summary>
         /// btnSubmit control.
         /// </summary>
