@@ -42,6 +42,21 @@
         <br />
         <br />
         <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+        <br />
+        <br />
+        <br />
+        <div>
+            <h3>Social Media</h3>
+            <p>
+                Twitter: <a href="https://twitter.com/cvtc">@CVTC</a>
+            </p>
+            <p>
+                YouTube: <a href="https://www.youtube.com/channel/UCEMNNPIFMvuPNzQCqX9hfUA">Chippewa Valley Technical College</a>
+            </p>
+            <p>
+                Instagram: <a href="https://www.instagram.com/chippewavalleytechnicalcollege/#">CVTC</a>
+            </p>
+        </div>
       
     </section>
 </asp:Content>
