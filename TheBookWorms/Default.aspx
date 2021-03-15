@@ -42,9 +42,9 @@
             <td style="width: 200px">Date Created<br /></td>
             <td style="width: 323px">
 
-                <asp:TextBox ID="dateCreated" TextMode="DateTimeLocal" runat="server"></asp:TextBox>
+                <asp:TextBox ID="dateCreated" runat="server" placeholder="dd/mm/yyyy"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Date Created name field is required" ControlToValidate="dateCreated" ForeColor="Red"></asp:RequiredFieldValidator>
-
+                <asp:RegularExpressionValidator Display="Dynamic" ValidationExpression="^([0-9]|0[1-9]|1[012])\/([0-9]|0[1-9]|[12][0-9]|3[01])\/(19|20)\d\d$" ControlToValidate="dateCreated" runat="server" ForeColor="Red" ErrorMessage="Date format is (mm/dd/yyyy)" ID="RegularExpressionValidator2" />
             </td>
         </tr>
         <tr>
