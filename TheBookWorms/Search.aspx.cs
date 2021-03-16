@@ -18,6 +18,8 @@ namespace TheBookWorms
 
         protected void btnSearch_Click(object sender, EventArgs e)
         {
+
+
             string search = txtSearch.Text;
 
             // Hide empty search label message
@@ -28,8 +30,10 @@ namespace TheBookWorms
             {
 
                 lbEmptySearch.Visible = true;
- 
+
             }
+
+
 
         }
     }

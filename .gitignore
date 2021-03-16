@@ -338,6 +338,4 @@ ASALocalRun/
 healthchecksdb
 
 
-*.mdf
-*.ldf
 
