@@ -94,6 +94,15 @@ namespace TheBookWorms {
         protected global::System.Web.UI.WebControls.TextBox txtDate;
         
         /// <summary>
+        /// rfDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfDate;
+        
+        /// <summary>
         /// revDate control.
         /// </summary>
         /// <remarks>
@@ -128,6 +137,15 @@ namespace TheBookWorms {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfEmail;
+        
+        /// <summary>
+        /// revEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
         
         /// <summary>
         /// lblEmailConfirm control.

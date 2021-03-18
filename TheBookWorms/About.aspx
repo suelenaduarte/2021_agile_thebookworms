@@ -6,7 +6,7 @@
         <h2>Why The Book Worms?</h2>
         <p>If you like to read books but don't have the time, the book worms is for you.</p>
         <p>Instead of reading a book, why not watch a video about the book that you are interested?</p>
-        <p>You will be able to expand your knowledge and level up your skillets in a new, fun, and engaging way.</p>
+        <p>You will be able to expand your knowledge and level up your skills in a new, fun, and engaging way.</p>
     </div>
     <h2>Meet the Founders</h2>
 

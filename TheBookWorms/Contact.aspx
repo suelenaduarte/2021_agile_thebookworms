@@ -18,12 +18,14 @@
         <br />
         <asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label>
         <asp:TextBox ID="txtDate" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="rfDate" runat="server" ErrorMessage="Enter a valid date (mm/dd/yyyy)" ControlToValidate="txtDate" ValidationExpression="^(((0?[1-9]|1[012])/(0?[1-9]|1\d|2[0-8])|(0?[13456789]|1[012])/(29|30)|(0?[13578]|1[02])/31)/(19|[2-9]\d)\d{2}|0?2/29/((19|[2-9]\d)(0[48]|[2468][048]|[13579][26])|(([2468][048]|[3579][26])00)))$" Display="None"></asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator ID="revDate" runat="server" ErrorMessage="Enter a valid date (mm/dd/yyyy)" ControlToValidate="txtDate" ValidationExpression="^(((0?[1-9]|1[012])/(0?[1-9]|1\d|2[0-8])|(0?[13456789]|1[012])/(29|30)|(0?[13578]|1[02])/31)/(19|[2-9]\d)\d{2}|0?2/29/((19|[2-9]\d)(0[48]|[2468][048]|[13579][26])|(([2468][048]|[3579][26])00)))$" Display="None"></asp:RegularExpressionValidator>
         <br />
         <br />
         <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label>
         <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="rfEmail" runat="server" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail" ErrorMessage="Email is required" Display="None"></asp:RequiredFieldValidator>
+        <asp:RegularExpressionValidator ID="revEmail" runat="server" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail" ErrorMessage="Invalid Email type" Display="None"></asp:RegularExpressionValidator>
         <br />
         <br />
         <asp:Label ID="lblEmailConfirm" runat="server" Text="Confirm Email: "></asp:Label>
